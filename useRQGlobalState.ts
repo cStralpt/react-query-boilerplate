@@ -27,7 +27,7 @@ export default function useRQGlobalState<T>({
       queryClient.setQueryData(queryKey, newData);
     },
   });
-  // const setNewData = mutate as MutationFunction<T, unknown>;
+  
   const setNewData = (newData: T) => {
     const executeMutation = mutate as MutationFunction<typeof newData, unknown>;
     executeMutation(newData);
