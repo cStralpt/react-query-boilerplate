@@ -1,5 +1,5 @@
 # client state management in React Query
-## NextJS
+## Uses in NextJS
 
 
 ```
