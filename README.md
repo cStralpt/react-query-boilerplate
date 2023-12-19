@@ -13,8 +13,8 @@ const inter = Inter({ subsets: ["latin"] });
 const openSans = Open_Sans({ preload: true, subsets: ["cyrillic"] });
 
 export const metadata: Metadata = {
-  title: "Ghifari Travel",
-  description: "Ghifari melayani dengan hati dan hati-hati",
+  title: "React Query Boilerplate",
+  description: "client state management in React Query",
 };
 
 export default function RootLayout({
